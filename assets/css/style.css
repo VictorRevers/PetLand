@@ -54,7 +54,6 @@
     height:75vh;
 }
 
-
 .video{
     padding:1rem;
 }
@@ -108,7 +107,6 @@
 }
 
 
-<<<<<<< HEAD
 /* Feed */
 
 .main-feed{
@@ -212,7 +210,7 @@
 
 h3,p {
     font-family: Kanit,sans-serif;
-=======
+}
 /* Login */
 .login-container{
     text-align: center;
@@ -254,7 +252,6 @@ h3,p {
 
 .login-container form{
     padding: 100px;
-<<<<<<< HEAD
 }
 
 /*Create Account*/
@@ -322,7 +319,4 @@ h3,p {
 
 .createAcc-container form{
     padding: 100px;
-=======
->>>>>>> 2e45e79187ef420f60581a05ddecc254f039cca4
->>>>>>> af4bb9762756b970a34a0031b37bcfbe9b413fb3
 }
