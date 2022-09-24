@@ -10,7 +10,7 @@
 
 .header{
     background-color:#6C63FF;
-    color:#FFFF;
+    color:#FFF;
     display:flex;
     align-items:center;
     justify-content:space-between;
@@ -20,12 +20,22 @@
 
 .header .button{
     padding:8px;
-    background-color:#f4f4f4;
+    background-color:#F38A3E;
+    color:#FFF;
     border-radius:16px;
     border: none ;
     margin-right:15px;
     cursor:pointer;
+    font-family: 'Kanit', sans-serif;
     
+}
+
+#login-button{
+    width:80px;
+    border-radius:50px;
+    background-color: #F38A3E;
+    color:#F4f4f4;
+
 }
 
 .main-block{
@@ -42,7 +52,6 @@
     justify-content:center;
     margin:auto;
     height:75vh;
-    /* margin-top:5rem; */
 }
 
 
@@ -96,4 +105,110 @@
   color: white;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
+}
+
+
+/* Feed */
+
+.main-feed{
+    display:grid;
+    grid-template-columns: 20% 60% 20%;
+    margin-top:20px;
+    text-align: center;
+}
+
+.main-feed-content{
+    display:flex;
+    justify-content:center;
+    height:100px;
+}
+
+.buttons-box{
+    background-color:#D9D9D9;
+    width:80%;
+    border-radius:10px;
+    height:100px;
+}
+
+.main-feed-content .feed-button{
+    width:  200px;
+    height: 50px;
+    margin: 20px;
+    background-color: #F38A3E;
+    border: none;
+    color: #fff;
+    border-radius:10px;
+    font-size:16px;
+    cursor: pointer;
+}
+
+.main-feed .perfil{
+    background-color:#D9D9D9;
+    border-radius:10px;
+    margin-left:10px;
+    padding:10px;
+}
+
+.main-feed .perfil img{
+    width:140px;
+    height:125px;
+    border-radius:50%;
+    border: 1px solid #F38A3E;
+    
+}
+
+.main-feed .alert-box{
+    background-color:#D9D9D9;
+    border-radius:10px;
+    margin-right:10px;
+    padding:20px;
+}
+
+.main-feed .alert-box img{
+    width:50px;
+}
+
+.main-feed .feed-anuncios{
+    background-color:#D9D9D9;
+    border-radius:10px;
+    margin-right:10px;
+    padding:10px;
+    margin: 0 auto;
+    width:77.5%;
+    height:360px;
+    display:flex;
+    justify-content:center;
+}
+
+.feed-anuncios .lista-anuncios .anuncio{
+    list-style-type: none;
+    padding:10px;
+    background-color:#CDCBCB;
+    padding:10px;
+    width:500px;
+    border-radius:10px;
+}
+
+.feed-anuncios .lista-anuncios .anuncio h3{
+    font-size:24px;
+    text-align:left;
+    margin-left:90px;
+    margin-bottom:5px;
+}
+
+.feed-anuncios .lista-anuncios .anuncio img{
+    width:400px;
+    height:250px;
+    border:1px solid grey;
+}
+
+.feed-anuncios .lista-anuncios .anuncio p{
+    text-align:left;
+    margin-left:90px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+h3,p {
+    font-family: Kanit,sans-serif;
 }
