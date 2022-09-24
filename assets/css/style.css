@@ -97,3 +97,48 @@
   text-align: center;
   font-family: 'Quicksand', sans-serif;
 }
+
+
+/* Login */
+.login-container{
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+    background-color:#D9D9D9;
+    margin-top: 12px;
+    border-radius: 5px;
+    width: 35%;
+    height: 100%;
+    box-shadow: 5px 7px gray;
+}
+.login-container h1{
+    font-size: 70px;
+    margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.login-container button{
+    font-size: 15px;
+    background-color: #6C63FF;      
+    color: #f4f4f4;
+    cursor: pointer;   
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+}
+
+.login-container input, .login-container a{   
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.login-container form{
+    padding: 100px;
+}
