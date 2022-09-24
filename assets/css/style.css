@@ -13,6 +13,11 @@
     padding:1rem;
 }
 
+.main-block{
+    display: flex;
+    justify-content:center;
+}
+
 .main-content{
     padding:1rem;
     display:flex;
@@ -23,4 +28,36 @@
 
 .video{
     padding:1rem;
+}
+
+.content{
+    padding:1rem;
+    margin: 0 auto;
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.content img{
+    width:300px;
+    align-items:center;
+    display:flex;
+    justify-content:center;
+}
+
+.content p{
+    text-align:left;
+    width: 500px;
+}
+
+.content h2{
+    text-align:center;
+}
+
+.footer{
+    background-color: #6C63FF;
+    flex-direction: column;
+    justify-content: flex-end;
 }
