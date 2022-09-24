@@ -17,19 +17,22 @@
     <main class="main-content">
         <div class="createAcc-container">
             <h1>Criar conta</h1>
-            <form action="">
+            <form id="form" action="">
                 <input class="ipm" type="text" placeholder="Nome">
                 <input class="ipm com" type="text" placeholder="Sobrenome">
                 <input class="ipg" type="text" placeholder="E-mail"><br>
                 <input class="ipg date" type="date" placeholder="Data de nascimento"><br>
-                <input class="ipm" type="password" placeholder="Senha">
-                <input class="ipm com" type="password" placeholder="Confirmar Senha"><br>
-                <button>Criar Conta</button><br>
+                <input class="ipm" type="password" placeholder="Senha" id="password">
+                <input class="ipm com" type="password" placeholder="Confirmar Senha" id="passwordConfirm"><br>
+                <button id="button" type="button">Criar Conta</button><br>
+                <p id="textArea"></p>
             </form>
         </div>
     </main>
     <footer class="footer">
         <p>Direitos reservados</p>
     </footer>
+
+    <script src="../assets/js/script.js"></script>
 </body>
 </html>
