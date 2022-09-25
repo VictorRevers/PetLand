@@ -8,6 +8,13 @@
     text-decoration:none;
 }
 
+h1 a{
+    color: white;
+}
+button a{
+    color: white;
+}
+
 .header{
     background-color:#6C63FF;
     color:#FFF;
@@ -211,6 +218,7 @@
 h3,p {
     font-family: Kanit,sans-serif;
 }
+
 /* Login */
 .login-container{
     text-align: center;
